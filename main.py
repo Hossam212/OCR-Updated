@@ -32,7 +32,6 @@ def extract_text_from_url(file_url: str) -> str:
                 temp_file_path,
                 output_pdf_path,
                 skip_text=True,
-                jobs=1,
                 optimize=0,
                 output_type="pdf",
                 fast_web_view=999999,
